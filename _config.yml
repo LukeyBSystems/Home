@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Bollys Blog"
+title                    : "Bolly's Blog"
 title_separator          : "-"
 name                     : &name "Luke Bollam"
 description              : &description "Software / Machine Learning Engineer"
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      :
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/luke-bollam-64a51314a/"
+  linkedin         : "luke-bollam-64a51314a/"
   orcid            :
   pinterest        :
   soundcloud       :

@@ -7,6 +7,7 @@ tags:
   - sets
 ---
 In today's post we will be looking at a couple of ways you can train a self-supervised model to handle variable lists of elements, using vanilla and variational autoencoders.
+
 ![](../images/set_gen.gif)
 
 Why should I care about sets?

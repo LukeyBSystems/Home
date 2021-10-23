@@ -60,7 +60,7 @@ There is an additional type of autoencoder called the variational-autoencoder, o
 
 The benefit of this is that the latent space ends up being smoother as it is forced to explore more of it during training. We can interpolate between areas of the space and still end up with something that resembles our input.
 
-Using Tensorflow-probability, it is really simple to add a variational component to the autoencoder
+Using Tensorflow-probability, it is really simple to add a variational component to the autoencoder.
 It is simply a case of adding a probility layer to our encoder output so that it returns a distribution instead of a tensor.
 ```python
 latent_dim = 64

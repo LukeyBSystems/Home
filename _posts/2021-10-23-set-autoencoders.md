@@ -24,8 +24,8 @@ Sets have two main properties that define them. The first property of a set is t
 An example problem
 ======
 *The experiments in this post are based upon two papers:*  
-https://arxiv.org/abs/2006.16841v2 - Adam R Kosiorek, Hyunjik Kim, Danilo J Rezende  
-https://arxiv.org/abs/1810.00825 - Juho Lee, Yoonho Lee, Jungtaek Kim, Adam R. Kosiorek, Seungjin Choi, Yee Whye Teh
+[TSPN](https://arxiv.org/abs/2006.16841v2) - Adam R Kosiorek, Hyunjik Kim, Danilo J Rezende  
+[Set Transformer](https://arxiv.org/abs/1810.00825) - Juho Lee, Yoonho Lee, Jungtaek Kim, Adam R. Kosiorek, Seungjin Choi, Yee Whye Teh
 
 ![](/images/MNISTpixels.png)
 

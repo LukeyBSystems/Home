@@ -10,7 +10,7 @@ In today's post we will be looking at a couple of ways you can train a self-supe
 
 ![](/images/set_gen.gif)
 
-[Code here](https://github.com/LukeBolly/SetAutoEncoder)
+[Code here](https://github.com/LukeyBSystems/SetAutoEncoder)
 
 
 Why should I care about sets?
@@ -31,7 +31,7 @@ An example problem
 
 We'll be looking at the MNIST dataset, but in a slightly different format than what you are probably used to. Instead of treating samples as images, we will be collecting the digit pixels into a set of pixel locations. This gives us a set of coordinates that define the digits. Our goal is to compress these coordinates into a fixed size vector, then see if we can rebuild the original digit.
 
-The code for the MNIST-Set dataset is available [here](https://github.com/LukeBolly/SetAutoEncoder/blob/master/datasets/mnist_set.py)
+The code for the MNIST-Set dataset is available [here](https://github.com/LukeyBSystems/SetAutoEncoder/blob/master/datasets/mnist_set.py)
 
 The Autoencoder Framework
 ======
@@ -48,7 +48,7 @@ The Decoder uses a model called TSPN (Transformer Set Prediction Network). This 
 
 It turns out that from the encoder output, we can learn a simple model that predicts the set size. This means that we can learn to predict an output set without the input being a set, allowing applications such as image-to-set (where are the faces in this image?), sentence-to-set (what are the emotions in this line?) or any other ...-to-set you can think of.
 
-The full code for the AutoEncoder is available [here](https://github.com/LukeBolly/SetAutoEncoder/blob/master/models/set_ae.py)
+The full code for the AutoEncoder is available [here](https://github.com/LukeyBSystems/SetAutoEncoder/blob/master/models/set_ae.py)
 
 The Variational Variant
 ======
@@ -69,4 +69,4 @@ self.out_dist = tfpl.IndependentNormal(latent_dim, activity_regularizer=tfpl.KLD
 ```
 During training we can call `.sample()` to retrieve noisy latent spaces, then during inference we call `.mode()` to get the most probable latent given an input encoding.
 
-The full code for the set-VAE is available [here](https://github.com/LukeBolly/SetAutoEncoder/blob/master/models/set_vae.py)
+The full code for the set-VAE is available [here](https://github.com/LukeyBSystems/SetAutoEncoder/blob/master/models/set_vae.py)

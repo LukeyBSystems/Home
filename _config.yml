@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Welcome!"
   avatar           : "profile.jfif"
-  bio              : "Hey I'm Luke, I like to experiment with code. I build applications in C# and models in Python"
+  bio              : "Hey I'm Luke, I like to experiment with code. I build applications in C#, models in Python and games/tooling in Unity"
   location         : "Perth, Western Australia"
   employer         :
   pubmed           :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "LukeBolly"
+  github           : "LukeyBSystems"
   google_plus      :
   keybase          :
   instagram        :
@@ -109,7 +109,7 @@ author:
   stackoverflow    :
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : "@LukeyBDevs"
   vine             :
   weibo            :
   xing             :

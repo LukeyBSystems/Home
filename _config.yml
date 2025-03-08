@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Bolly's Blog"
+title                    : "LukeyB Systems"
 title_separator          : "-"
 name                     : &name "Luke Bollam"
 description              : &description "Software / Machine Learning Engineer"
